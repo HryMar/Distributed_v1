@@ -4,7 +4,7 @@ class Config(object):
 
     CUSTOM_VALIDATION = False
 
-    DATASET_DIR = "/home/ubuntu/Mark/ARVI/DATA/light/"
+    DATASET_DIR = "/Users/Markos/ARVI/DATA/light/"
 
     #make augmentation to balance classes?
     AUGMENTATION = True
