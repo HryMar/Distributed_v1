@@ -36,15 +36,6 @@ for i in range(0,len(classes_names)):
     np.random.shuffle(imgs)
     images_of_class.append(imgs)
 
-#make additional dir
-# os.mkdir(augmented_dataset)
-
-# #and copy images there
-# for class_n in range(0,len(classes_names)):
-#     os.mkdir(os.path.join(augmented_dataset,classes_names[class_n]))
-#     for img in range(0,len(images_of_class[class_n])):
-#         shutil.copy(os.path.join(dataset, classes_names[class_n], images_of_class[class_n][img]),
-#                     os.path.join(augmented_dataset, classes_names[class_n]))
 
 #augmentation
 from PIL import Image
